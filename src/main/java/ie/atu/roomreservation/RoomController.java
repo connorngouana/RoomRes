@@ -56,6 +56,8 @@ public class RoomController
           selectedRoom = room2;
       }
 
+
+
       String selectedRoomNumber = (roomDetails.getCategory() == 1) ? String.valueOf(roomOption1) : String.valueOf(roomOption2);
 
         RoomDetails selectedRoomEntity = new RoomDetails();
